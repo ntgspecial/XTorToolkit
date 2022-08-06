@@ -84,16 +84,16 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # If set then you can view the downloaded files which are currently on the server
-        ENABLE_WEB_FILES_VIEW = False
+        ENABLE_WEB_FILES_VIEW = True
 
         # Try beta ytdl download if errored turn this off
         ENABLE_BETA_YOUTUBE_DL = True
